@@ -1,0 +1,21 @@
+.test {
+    display: grid;
+
+    background-color: blue;
+    margin-top: 5px;
+    width: 24px;
+}
+
+.test001 {
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-column-gap: 10px;
+}
+
+.test1 {
+    margin-left: 5%;
+    background-color: brown;
+}

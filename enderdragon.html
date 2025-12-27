@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ender Dragon</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/enderDragon_png.png" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change('images/enderDragon_png.png')" class="creeperImage" src="images/enderDragon_png.png" alt="">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change('images/enderDragon_art.png')" class="creeperImage" src="images/enderDragon_art.png" alt="">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change('images/enderDragon_ball.png')" class="creeperImage" src="images/enderDragon_ball.png" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Дракон Края, или Эндер-дракон, — босс, обитающий в Крае. Уничтожает большинство блоков на своём пути, пролетает сквозь те блоки, которые не уничтожает. Изначально спаунится единожды в Крае на центральном острове, может быть возрождён повторно при помощи кристаллов Края. Кристаллы Края восстанавливают его здоровье. Главный антагонист видеоигры «Minecraft».</div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change(x) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.src = x;
+            newbig.className = 'imgBigPhoto';
+            big.appendChild(newbig);
+        }
+    </script>
+</body>
+</html>

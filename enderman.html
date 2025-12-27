@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enderman</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/enderman.png" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change2('images/enderman.png')" class="creeperImage" src="images/enderman.png" alt="enderman">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change2('images/enderman_art.jpg')" class="creeperImage" src="images/enderman_art.jpg" alt="draw">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change2('images/ender_eye.png')" class="creeperImage" src="images/ender_eye.png" alt="eye">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Эндерман - это высокий нейтральный моб, встречающийся во всех трех измерениях. Эндермены обычно игнорируют игроков, но бросаются в атаку на тех, кто наносит им урон или смотрит прямо в лицо. Эндермены телепортируются, чтобы избежать воды (которая наносит им вред), солнечного света, снарядов и некоторых других источников урона, и иногда они подбирают определенные блоки.</div>
+    </div>
+
+
+    <div class="footerCreeper"></div>
+
+    <script>
+        function change2(x) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.src = x;
+            newbig.className = 'imgBigPhoto'
+            big.appendChild(newbig);
+        };
+    </script>
+</body>

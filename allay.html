@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/allay_jpeg.jpg" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change6('images/allay_png.png')" class="creeperImage" src="images/allay_png.png" alt="">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change6('images/allay_jpeg.jpg')" class="creeperImage" src="images/allay_jpeg.jpg" alt="">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change6('images/allay_art.jpg')" class="creeperImage" src="images/allay_art.jpg" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Эллей - это летающий пассивный моб, который собирает и доставляет предметы любому игроку, который дал ему такой же предмет в едином экземпляре или любой нотный блок, который, как он слышал, недавно играл. Он похож на своего враждебного собрата, векса</div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change6(xbox) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.src = xbox;
+            newbig.className = 'imgBigPhoto';
+            big.appendChild(newbig);
+        };
+    </script>
+</body>
+</html>

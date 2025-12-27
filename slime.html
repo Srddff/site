@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slime</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/slime_png.png" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change9('images/slime_png.png')" class="creeperImage" src="images/slime_png.png" alt="">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change9('images/slime_reallife.png')" class="creeperImage" src="images/slime_reallife.png" alt="">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change9('images/slime_art.jpg')" class="creeperImage" src="images/slime_art.jpg" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Слизень — враждебный кубический зелёный желеподобный моб трёх размеров, способный видеть игрока через твёрдые блоки. Большие слизни после смерти делятся на слизней средних размеров, средние делятся на слизней маленьких размеров, а маленькие слизни вместо деления дропают слизь.</div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change9(px) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.className = 'imgBigPhoto';
+            newbig.src = px;
+            big.appendChild(newbig);
+        };
+    </script>
+</body>
+</html>

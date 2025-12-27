@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creeper</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/creeper_png.png" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change('images/creeper_png.png')" class="creeperImage" src="images/creeper_png.png" alt="creepre">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change('images/creeper_draw_png.png')" class="creeperImage" src="images/creeper_draw_png.png" alt="draw">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change('images/creeperEl.png')" class="creeperImage" src="images/creeperEl.png" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Кри́пер — зелёное четырёхногое существо, один из враждебных мобов в компьютерной игре Minecraft. В игре крипер практически бесшумно приближается к игровому персонажу и взрывается; такой взрыв разрушает окружающие блоки. Впервые крипер был добавлен в одно из альфа-обновлений игры 1 сентября 2009 года. Является одним из официальных символов Minecraft и широко используется в рекламно-сувенирной продукции.
+            <div class="describition">
+                <div class="discribition_element1">
+                    <p class="bold_text">Здоровье:</p><br>
+                    <p class="decor_text">24,5</p>
+                    <img class="decor_img" src="images/" alt="">
+                </div>
+                <div class="discribition_element2">
+                    <p class="bold_text">Дроп:</p><br>
+                    <p class="decor_text"></p>
+                    <img class="decor_img2" src="" alt="">
+                </div>
+                <div class="discribition_element3">
+                    <p class="bold_text">Опыт:</p><br>
+                    <p class="decor_text"></p>
+                    <img src="" alt="">
+                </div>
+                <div class="discribition_element4">
+                    <p class="bold_text">Урон:</p><br>
+                    <p class="decor_text"></p>
+                    <img class="decor_img3" src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change(x) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.src = x;
+            newbig.className = 'imgBigPhoto'
+            big.appendChild(newbig);
+        };
+    </script>
+</body>
+</html>

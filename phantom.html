@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/phantom_art.png" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change4('images/phantom_png.png')" class="creeperImage" src="images/phantom_png.png" alt="">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change4('images/phantom_jpeg.jpg')" class="creeperImage" src="images/phantom_jpeg.jpg" alt="">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change4('images/phantom_art.png')" class="creeperImage" src="images/phantom_art.png" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Фантомы - это летающие немертвые враждебные мобы, которые появляются в ночном небе, когда игрок не лежал в постели и не умирал в течение трех или более игровых дней. Они атакуют, пикируя на игрока с неба, чтобы укусить его.</div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change4(x) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.src = x;
+            newbig.className = 'imgBigPhoto';
+            big.appendChild(newbig);
+        };
+    </script>
+</body>
+</html>

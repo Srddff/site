@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creeper</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/ghast.png" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change3('images/ghast.png')" class="creeperImage" src="images/ghast.png" alt="ghast">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change3('images/ghast_draw.png')" class="creeperImage" src="images/ghast_draw.png" alt="draw">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change3('images/ghast_ball.png')" class="creeperImage" src="images/ghast_ball.png" alt="ball">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Гасты - это враждебные мобы, которых можно найти в Преисподней. При убийстве они могут сбрасывать 0-1 Слезу вурдалака, 0-2 Порох и 5 очков опыта. С вурдалаками трудно бороться, так как они парят в воздухе и всегда держатся на расстоянии от любого игрока, будучи враждебными по отношению к ним. Они также бросают в игрока огненные шары, которые, следует отметить, могут быть уничтожены атаками ближнего боя. Эти огненные шары уничтожат почти все блоки в мире Minecraft, кроме булыжника, камня, алмазного блока или обсидиана.</div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change3(x) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.src = x;
+            newbig.className = 'imgBigPhoto';
+            big.appendChild(newbig);
+        };
+    </script>
+</body>

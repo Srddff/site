@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaze</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/blaze.jpg" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change8('images/blaze.jpg')" class="creeperImage" src="images/blaze.jpg" alt="">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change8('images/blaze_in.png')" class="creeperImage" src="images/blaze_in.png" alt="">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change8('images/blaze_png2.png')" class="creeperImage" src="images/blaze_png2.png" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Эфрит - это враждебный моб, который появляется в адских крепостях и является единственным источником огненных жезлов. Эфрит атакует на расстоянии, выпуская три огненных шара, или может атаковать игрока, который подойдет к нему слишком близко со своими вращающимися жезлами.</div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change8(blaXe) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.className = 'imgBigPhoto';
+            newbig.src = blaXe;
+            big.appendChild(newbig);
+        };
+    </script>
+</body>
+</html>

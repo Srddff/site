@@ -1,0 +1,382 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #74FFA3;
+}
+
+.main_text {
+    display: grid;
+    grid-template-columns: 1205px 608px;
+}
+
+.in_the_main_text {
+    margin-left: 61px;
+    width: 1205px;
+    height: 590px;
+    background-color: #E6FFEF;
+    font-size: 32px;
+}
+
+.image {
+    margin-top: 26px;
+    margin-left: 31px;
+}
+
+.image_really {
+    width: 608px;
+    height: 590px;
+}
+
+body {
+background-image: url('images/background.jpeg');
+width: 1920px;
+background-repeat: repeat-x;
+}
+
+.image_really001 {
+    width: 68px;
+    height: 74px;
+    padding-left: 33px;
+    padding-top: 13px;
+}
+
+.aaa {
+    width: 1700px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 61px;
+    background-color: #E6FFEF;
+    display: grid;
+    grid-template-columns: 102px 446px 111px;
+}
+
+.image_really003 {
+    width: 102px;
+    height: 100px;
+}
+
+.image_really004 {
+    width: 446px;
+    height: 73px;
+}
+
+.image_really005 {
+    width: 111px;
+    height: 100px;
+}
+
+.image_really0021 {
+    margin-left: 201px;
+}
+
+.image_really0022 {
+    margin: 627px;
+    margin-top: 13px;
+    margin-right: 627px;
+}
+
+.image_really0023 {
+    margin-left: 900px;
+}
+
+.images {
+    margin-left: 195px;
+    display: grid;
+    grid-template-columns: 349px 349px 349px 349px;
+    margin-top: 40px;
+}
+
+.image001 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #018701;
+}
+
+.creeper {
+    width: 151px;
+    height: 300px;
+    padding-left: 99px;
+}
+
+.txt_creeper {
+    padding-left: 109px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.contacts {
+    width: 1700px;
+    height: 100px;
+    margin-left: 61px;
+    margin-top: 28px;
+    background-color: #E6FFEF;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #74FFA3;
+    margin-top: 28px;
+}
+
+
+
+.littlePhotos {
+    margin-top: 28px;
+    margin-left: 61px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 450px;
+}
+
+.oneLittlePhoto {
+    background-color: azure;
+    height: 140px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 450px auto;
+    gap: 20px;
+    width: 1600px;
+}
+
+.mainTextHero {
+   
+    height: 510px;
+    background-color: #E6FFEF;
+    margin-top: 28px;
+    margin-left: 50px;
+    font-size: 32px;
+    
+}
+.bigPhoto {
+    width: 350px;
+    height: 350px;
+    margin-top: 28px;
+    margin-left: 61px;
+    background-color: azure;
+}
+
+.footerCreeper {
+    width: 100%;
+    height: 200px;
+    background-color: #74FFA3;
+    margin-top: 300px;
+}
+
+.creeperPhotos {
+    display: grid;
+    grid-template-rows: 350px 140px;
+    gap: 20px;
+}
+
+.creeperImage {
+    height: 100%;
+    width: 100%;
+}
+
+.imgBigPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+.txt_enderman {
+    padding-left: 96px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+
+.image002 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #ba00c7;
+}
+
+.image003 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #9e9e9e;
+}
+
+.txt_ghast {
+    padding-left: 110px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image004 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #3d00cc;
+}
+
+.txt_phantom {
+    padding-left: 100px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image005 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #ff5101;
+}
+
+.txt_cube {
+    padding-left: 65px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image006 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #01eaff;
+}
+
+.txt_allay {
+    padding-left: 112px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image007 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #09159a;
+}
+
+.txt_warden {
+    padding-left: 109px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image008 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #ffd900;
+}
+
+.txt_blaze {
+    padding-left: 111px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image009 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #51ff00;
+}
+
+.txt_slime {
+    padding-left: 112px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image010 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #49495c;
+}
+
+.txt_rav {
+    padding-left: 102px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image011 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #a600cb;
+}
+
+.txt_end {
+    padding-left: 62px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.image012 {
+    margin-bottom: 10px;
+    margin-right: 12px;
+    background-color: #D7FFFA;
+    height: 349px;
+    color: #496abe;
+}
+
+.txt_breeze {
+    padding-left: 110px;
+    font-size: 35px;
+    font-family: 'Keania One';
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.describition {
+    background-color: #ba00c7;
+    width: 100%;
+    height: 150px;
+    padding-top: 5px;
+}
+
+.discribition_element1{
+    padding-top: 1px;
+    padding-left: 1px;
+}
+
+.discribition_element2{
+    padding-top: 1px;
+    padding-left: 300px;
+}
+
+.discribition_element3{
+    padding-top: 40px;
+    padding-left: 1px;
+}
+
+.discribition_element4{
+    padding-top: 40px;
+    padding-left: 300px;
+}

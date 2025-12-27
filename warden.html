@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warden</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html"><img class="image_really001" src="images/logo.png" alt=""></a>
+    </div>
+
+    <div class="main">
+        <div class="creeperPhotos">
+            <div id="big_photo" class="bigPhoto">
+                <img src="images/warden_png2.png" alt="" class="imgBigPhoto">
+            </div>
+            <div class="littlePhotos">
+                <div class="oneLittlePhoto">
+                    <img onclick="change7('images/warden_art.jpg')" class="creeperImage" src="images/warden_art.jpg" alt="">
+                </div>
+                <div id="logo" class="oneLittlePhoto">
+                    <img onclick="change7('images/warden_png2.png')" class="creeperImage" src="images/warden_png2.png" alt="">
+                </div>
+                <div id='youtube' class="oneLittlePhoto">
+                    <img onclick="change7('images/warden_biom.jpg')" class="creeperImage" src="images/warden_biom.jpg" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="mainTextHero">Хранитель или варден — это враждебный моб, который распознает игрока и других мобов с помощью издаваемого ими звука и своего обоняния. Призывается скалк-крикуном. Является самым сильным и единственным слепым мобом в игре и имеет здоровье как у Иссушителя (в Bedrock Edition у Иссушителя больше), однако не является боссом.</div>
+    </div>
+
+
+    <!-- <div class="main_text2">
+        <p class="in_the_main_text"></p>
+    </div> -->
+
+    <div class="footerCreeper"></div>
+    <script>
+        function change7(x) {
+            let big = document.getElementById('big_photo');
+            big.innerHTML = '';
+            let newbig = document.createElement('img');
+            newbig.className = 'imgBigPhoto';
+            newbig.src = x;
+            big.appendChild(newbig);
+        };
+    </script>
+</body>
+</html>
